@@ -1,0 +1,101 @@
+body {
+    font-family: Droid Sans, Arial, Helvetica, sans-serif;
+    margin-left:15px;
+}
+li{
+    margin-top: 1px;
+}
+
+li:first-child {
+    margin-top:1px;
+}
+.navbox {
+    float:left;
+    width:250px;
+    border:1px;
+    background-color:#f2f1e7;
+}
+
+.small {
+    font-size:14px;
+}
+
+.float_center {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+.main {
+    margin-left:275px;
+}
+
+.top{
+    float:top;
+}
+
+.top div {
+    
+}
+
+.top div h1 {
+    text-align:center;
+}
+
+.top .title {
+    background-color:royalblue;
+    height:50px;
+}
+
+.top .subtitle {
+    background-color:#84c1c1;
+    height:50px;
+    vertical-align: top;
+}
+
+.top .chemistry {
+	background-color:limegreen;
+    height:50px;
+    vertical-align: top;
+}
+
+.top .physical-science {
+	background-color:#0ADDC3;
+    height:50px;
+    vertical-align: top;
+}
+
+p:target { background: yellow; }
+
+img { display: block; }
+
+.r:link {color: black;text-decoration: none;}      /* unvisited link */
+.r:visited {color: black;text-decoration: none;}   /* visited link */
+.r:hover {color: black;text-decoration: none;}     /* mouse over link */
+.r:active {color: black;text-decoration: none;}    /* selected link */
+
+td .pre {
+	width: 60px;
+}
+
+td .mid {
+	width: 80px;
+}
+
+td {
+	height: 30px;
+}
+
+/* ----------------------------------------------------- */
+/* | Below is copied from Google Fonts (thanks google) | */
+/* ----------------------------------------------------- */
+
+/* latin */
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(https://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
