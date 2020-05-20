@@ -45,7 +45,9 @@ li:first-child {
     height:50px;
     vertical-align: top;
 }
-
+body {
+    background-color: #ffff00
+}
 p:target { background: yellow; }
 
 img { display: block; }
