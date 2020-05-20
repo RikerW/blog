@@ -9,12 +9,6 @@ li{
 li:first-child {
     margin-top:1px;
 }
-.navbox {
-    float:left;
-    width:250px;
-    border:1px;
-    background-color:#f2f1e7;
-}
 
 .small {
     font-size:14px;
@@ -44,24 +38,10 @@ li:first-child {
 }
 
 .top .title {
-    background-color:royalblue;
     height:50px;
 }
 
 .top .subtitle {
-    background-color:#84c1c1;
-    height:50px;
-    vertical-align: top;
-}
-
-.top .chemistry {
-	background-color:limegreen;
-    height:50px;
-    vertical-align: top;
-}
-
-.top .physical-science {
-	background-color:#0ADDC3;
     height:50px;
     vertical-align: top;
 }
