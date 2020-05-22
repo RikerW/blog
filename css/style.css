@@ -46,7 +46,7 @@ li:first-child {
     vertical-align: top;
 }
 body {
-    background-color: #ffff00
+    background-color: #32cd32
 }
 p:target { background: yellow; }
 
